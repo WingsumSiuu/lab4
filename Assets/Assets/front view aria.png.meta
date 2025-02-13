@@ -1,0 +1,338 @@
+fileFormatVersion: 2
+guid: c56ea7c9d1d1841b0af774b8fe84952b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1498510586851819509
+    second: front view aria_0
+  - first:
+      213: -6200344766328866431
+    second: front view aria_1
+  - first:
+      213: -7128031015038350784
+    second: front view aria_2
+  - first:
+      213: -6509067848953673981
+    second: front view aria_3
+  - first:
+      213: -8916621880833237132
+    second: front view aria_4
+  - first:
+      213: -380162687145205757
+    second: front view aria_5
+  - first:
+      213: -8515384081751554811
+    second: front view aria_6
+  - first:
+      213: 2406827445443476469
+    second: front view aria_7
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: front view aria_0
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 391
+        width: 192
+        height: 191
+      alignment: 9
+      pivot: {x: 0.5161502, y: 0.061670754}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b00098a8f88343be0800000000000000
+      internalID: -1498510586851819509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: front view aria_1
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 443
+        width: 190
+        height: 172
+      alignment: 9
+      pivot: {x: 0.46736032, y: 0.6983057}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 189f30e2943f3f9a0800000000000000
+      internalID: -6200344766328866431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: front view aria_2
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 179
+        width: 66
+        height: 111
+      alignment: 9
+      pivot: {x: 0.9698149, y: 0.9190242}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04a0ca8ce85241d90800000000000000
+      internalID: -7128031015038350784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: front view aria_3
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 179
+        width: 67
+        height: 110
+      alignment: 9
+      pivot: {x: 0.08347833, y: 0.97921115}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 307433427452ba5a0800000000000000
+      internalID: -6509067848953673981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: front view aria_4
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 256
+        width: 91
+        height: 110
+      alignment: 9
+      pivot: {x: 0.5340751, y: 1.0074008}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47f957444abc14480800000000000000
+      internalID: -8916621880833237132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: front view aria_5
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 256
+        width: 92
+        height: 110
+      alignment: 9
+      pivot: {x: 0.466296, y: 1.1765331}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3002adbdc0469baf0800000000000000
+      internalID: -380162687145205757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: front view aria_6
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 95
+        width: 101
+        height: 100
+      alignment: 9
+      pivot: {x: 0.6842053, y: 0.28294662}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 505ce294b4743d980800000000000000
+      internalID: -8515384081751554811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: front view aria_7
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 95
+        width: 101
+        height: 100
+      alignment: 9
+      pivot: {x: 0.25439394, y: 0.28294662}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fbb1594fc4c66120800000000000000
+      internalID: 2406827445443476469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: a20dca7c643604ffe9eb3027e3655963
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      front view aria_0: -1498510586851819509
+      front view aria_1: -6200344766328866431
+      front view aria_2: -7128031015038350784
+      front view aria_3: -6509067848953673981
+      front view aria_4: -8916621880833237132
+      front view aria_5: -380162687145205757
+      front view aria_6: -8515384081751554811
+      front view aria_7: 2406827445443476469
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
