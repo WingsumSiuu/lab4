@@ -21,6 +21,12 @@ public class loadscene : MonoBehaviour
         SceneManager.LoadScene(1);
     }
 
+    public void PlayRhythmGame()
+    {
+        // build and run to see scene numbers
+        SceneManager.LoadScene(3);
+    }
+
     public void QuitGame() {
         Application.Quit();
     }

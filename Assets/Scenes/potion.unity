@@ -605,6 +605,7 @@ GameObject:
   - component: {fileID: 475807960}
   - component: {fileID: 475807959}
   - component: {fileID: 475807958}
+  - component: {fileID: 475807961}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -686,6 +687,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &475807961
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 475807957}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28a3c98fd8649456ca7e8f8faeeb0a0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &508013850
 GameObject:
   m_ObjectHideFlags: 0
@@ -1247,8 +1260,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 564, y: 289}
-  m_SizeDelta: {x: 202.0061, y: 81.6998}
+  m_AnchoredPosition: {x: 519, y: 316}
+  m_SizeDelta: {x: 538.2174, y: 214.6205}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &854603158
 MonoBehaviour:
@@ -1293,7 +1306,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 854603159}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 475807961}
+        m_TargetAssemblyTypeName: loadscene, Assembly-CSharp
+        m_MethodName: PlayRhythmGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &854603159
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2147,7 +2172,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Take Orb
+  m_text: Go to rhythm game (not finished, but will be ending scene AND press any
+    key to start)
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8a89fa14b10d46a99122fd4f73fca9a2, type: 2}
   m_sharedMaterial: {fileID: 2140474, guid: 8a89fa14b10d46a99122fd4f73fca9a2, type: 2}
