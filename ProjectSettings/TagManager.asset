@@ -5,6 +5,16 @@ TagManager:
   serializedVersion: 3
   tags:
   - tpwall
+  - Activator
+  - Orb
+  - OrbHolder
+  - PinkOrbSpawn
+  - OrangeOrbSpawn
+  - YellowOrbSpawn
+  - GreenOrbSpawn
+  - BlueOrbSpawn
+  - PurpleOrbSpawn
+  - berry
   layers:
   - Default
   - TransparentFX
@@ -12,7 +22,7 @@ TagManager:
   - 
   - Water
   - UI
-  - 
+  - Musical Orb
   - 
   - 
   - 
@@ -41,6 +51,12 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: New Layer 1
+    uniqueID: 1431869959
+    locked: 0
+  - name: AboveUI
+    uniqueID: 3819018247
     locked: 0
   m_RenderingLayers:
   - Default
