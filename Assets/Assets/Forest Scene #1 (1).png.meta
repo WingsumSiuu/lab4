@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 73bc3e8c5f3274709947286e4c378ec4
+guid: e3619001abb7a4039964b514378e125b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6792724059471561069
-    second: elderberry_0
+      213: -3887870248717549395
+    second: Forest Scene #1 (1)_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: elderberry_0
+      name: Forest Scene #1 (1)_0
       rect:
         serializedVersion: 2
-        x: 345
-        y: 209
-        width: 204
-        height: 204
+        x: 0
+        y: 0
+        width: 2500
+        height: 1016
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 39eb2f115756bb1a0800000000000000
-      internalID: -6792724059471561069
+      spriteID: da0816c8b928b0ac0800000000000000
+      internalID: -3887870248717549395
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      elderberry_0: -6792724059471561069
+      Forest Scene #1 (1)_0: -3887870248717549395
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
