@@ -7,7 +7,7 @@ public class charwalk : MonoBehaviour
     public Animator animate;
     private float horizontal;
     private float speed = 5f;
-    private bool facingRight = true;
+    //private bool facingRight = true;
     
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()

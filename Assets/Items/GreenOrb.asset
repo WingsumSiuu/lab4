@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f455cd878e1d046a1a2a53ad4ac3b5da, type: 3}
+  m_Name: GreenOrb
+  m_EditorClassIdentifier: 
+  id: 3
+  itemName: Green Orb
+  icon: {fileID: 5671058265323939394, guid: 8a3d50b7b63004bc08637394082fdbce, type: 3}
+  spawnPointTag: GreenOrbSpawn
+  musicSound: {fileID: 8300000, guid: 343011aa304fd4527a9b37ddb7ac4bd4, type: 3}

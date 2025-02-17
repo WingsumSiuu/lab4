@@ -31,4 +31,7 @@ public class loadscene : MonoBehaviour
         Application.Quit();
     }
 
+    public void MusicalElementScene() {
+        SceneManager.LoadScene(4);
+    }
 }
