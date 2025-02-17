@@ -12,10 +12,13 @@ public class InventoryManager : MonoBehaviour
     public GameObject InventoryButtonPrefab;
     public GameObject ItemPrefab;
 
+    public Item pinkOrb;
+
     private void Awake() {
         if (Instance == null) {
             Instance = this;
             DontDestroyOnLoad(gameObject);
+            SceneManager.sceneLoaded += OnSceneLoaded;
         } else {
             Destroy(gameObject);
             return;
@@ -57,7 +60,7 @@ public class InventoryManager : MonoBehaviour
     }
 
     public void CheckInventoryUI() {
-        string[] allowedScenes = { "SampleScene", "Final Scene" };
+        string[] allowedScenes = { "SampleScene", "Final Scene", "Rhythm Scene"};
 
         GameObject inventoryPanel = GameObject.Find("Inventory");
 
@@ -90,6 +93,14 @@ public void SpawnItemInScene(Item item) {
     spawnedItem.AddComponent<OrbSound>().SetAudioSource(audioSource);
 
     Remove(item);
+}
+
+private void OnSceneLoaded(Scene scene, LoadSceneMode mode){
+    if (scene.name == "nattyOrbCutscene") 
+    {
+        Items.Add(pinkOrb); 
+        ListItems();
+    }
 }
 
 }
