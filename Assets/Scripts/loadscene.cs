@@ -3,18 +3,6 @@ using UnityEngine.SceneManagement;
 
 public class loadscene : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    // void Start()
-    // {
-        
-    // }
-
-    // // Update is called once per frame
-    // void Update()
-    // {
-        
-    // }
-
     public void PlayGame()
     {
         // build and run to see scene numbers
@@ -24,7 +12,12 @@ public class loadscene : MonoBehaviour
     public void PlayRhythmGame()
     {
         // build and run to see scene numbers
-        SceneManager.LoadScene(3);
+        SceneManager.LoadScene(4);
+    }
+
+    public void resetPotion()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
     public void QuitGame() {
