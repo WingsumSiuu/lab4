@@ -1,17 +1,13 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using TMPro;
+using UnityEngine.UI;
 
 public class CheckAllOrbs : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
+    public TextMeshProUGUI errorText;
 
-    // Update is called once per frame
-    void Update()
-    {
+    public void checkLeave() {
         GameObject pinkorb = GameObject.Find("Pink Orb");
         GameObject orangeorb = GameObject.Find("Orange Orb");
         GameObject yelloworb = GameObject.Find("Yellow Orb");
@@ -20,7 +16,8 @@ public class CheckAllOrbs : MonoBehaviour
         GameObject purpleorb = GameObject.Find("Purple Orb");
         if (pinkorb && orangeorb && yelloworb && greenorb && blueorb && purpleorb) {
             SceneManager.LoadScene(11);
+        } else {
+            errorText.text = "(You may not leave until all the orbs are in place.)";
         }
-
     }
 }
