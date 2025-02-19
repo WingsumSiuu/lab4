@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      PinkButton_Pressed_0: -5389283508132241201
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

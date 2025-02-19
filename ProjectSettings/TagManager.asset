@@ -15,6 +15,7 @@ TagManager:
   - BlueOrbSpawn
   - PurpleOrbSpawn
   - berry
+  - InventoryCanvas
   layers:
   - Default
   - TransparentFX
@@ -23,7 +24,7 @@ TagManager:
   - Water
   - UI
   - Musical Orb
-  - 
+  - Ground
   - 
   - 
   - 

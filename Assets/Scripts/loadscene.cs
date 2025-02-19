@@ -20,6 +20,10 @@ public class loadscene : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
+    public void backToMain() {
+        SceneManager.LoadScene(0);
+    }
+
     public void QuitGame() {
         Application.Quit();
     }
