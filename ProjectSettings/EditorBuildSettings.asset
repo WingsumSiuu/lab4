@@ -21,11 +21,26 @@ EditorBuildSettings:
     path: Assets/Scenes/nattyOrbCutscene.unity
     guid: afbf3638a6af34681b1de417dec3076e
   - enabled: 1
+    path: Assets/Scenes/enemyCutscene.unity
+    guid: 46dc2634ee81b4b08b5650051abc12d0
+  - enabled: 1
     path: Assets/Scenes/RhythmScene.unity
     guid: a7efac3f0da73e7439004acd29203987
   - enabled: 1
+    path: Assets/Scenes/enemyLoseCutscene.unity
+    guid: deea7b428053a4d31913ef268c89fefc
+  - enabled: 1
+    path: Assets/Scenes/enemyOrbCutscene.unity
+    guid: a9c87dd780c204d82be7644ab38177ec
+  - enabled: 1
+    path: Assets/Scenes/walkToPutOrbs.unity
+    guid: d05d8abff4bd04d029fd368a12c1815d
+  - enabled: 1
     path: Assets/Scenes/Final Scene.unity
     guid: cbd3b0c4f51324379b223b880d33a95a
+  - enabled: 1
+    path: Assets/Scenes/Ending.unity
+    guid: 4fc9e9747681a4fa480d5c91d6a6d014
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 3590b91b4603b465dbb4216d601bff33, type: 3}
   m_UseUCBPForAssetBundles: 0

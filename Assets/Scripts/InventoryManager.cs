@@ -60,14 +60,25 @@ public class InventoryManager : MonoBehaviour
     }
 
     public void CheckInventoryUI() {
-        string[] allowedScenes = { "SampleScene", "Final Scene", "Rhythm Scene"};
+        string[] allowedScenes = { "SampleScene", "Final Scene" };
 
-        GameObject inventoryPanel = GameObject.Find("Inventory");
+        GameObject canvas = GameObject.Find("Canvas");
 
-        if (inventoryPanel != null){
-            inventoryPanel.SetActive(System.Array.Exists(allowedScenes, scene => scene == SceneManager.GetActiveScene().name));
+        if (canvas != null)
+        {
+            Transform inventoryTransform = canvas.transform.Find("Inventory");
+
+            Transform inventoryTransformButton = canvas.transform.Find("InventoryButton");
+
+            if (inventoryTransform != null && inventoryTransformButton != null)
+            {
+                bool shouldShow = System.Array.Exists(allowedScenes, scene => scene == SceneManager.GetActiveScene().name);
+                //inventoryTransform.gameObject.SetActive(shouldShow);
+                inventoryTransformButton.gameObject.SetActive(shouldShow);
+            }
         }
     }
+
 
 public void SpawnItemInScene(Item item) {
     GameObject spawnPoint = GameObject.FindWithTag(item.spawnPointTag);
@@ -96,11 +107,13 @@ public void SpawnItemInScene(Item item) {
 }
 
 private void OnSceneLoaded(Scene scene, LoadSceneMode mode){
-    if (scene.name == "nattyOrbCutscene") 
-    {
-        Items.Add(pinkOrb); 
-        ListItems();
-    }
+    CheckInventoryUI();
+    // if (scene.name == "nattyOrbCutscene") 
+    // {
+    //     Items.Add(pinkOrb); 
+    //     ListItems();
+    // }
+
 }
 
 }

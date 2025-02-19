@@ -57,7 +57,14 @@ public class dialogue : MonoBehaviour
             if (activeScene == "nattyCutscene") {
                 SceneManager.LoadScene(3);
             } else if (activeScene == "nattyOrbCutscene") {
-                SceneManager.LoadScene(5);
+                GameObject orb = GameObject.Find("pinkorb_0");
+                if (orb == null) {
+                    SceneManager.LoadScene(5);
+                }
+            } else if (activeScene == "enemyCutscene") {
+                SceneManager.LoadScene(6);
+            } else if (activeScene == "enemyLoseCutscene") {
+                SceneManager.LoadScene(8);
             }
         }
     }

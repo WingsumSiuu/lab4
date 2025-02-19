@@ -19,6 +19,10 @@ public class audioFade : MonoBehaviour
     public GameObject buddy1post;
     public GameObject buddy2pre;
     public GameObject buddy2post;
+    public GameObject welcomepre;
+    public GameObject welcomepost;
+    public GameObject orbpre;
+    public GameObject orbpost;
     public GameObject orbs;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -29,20 +33,24 @@ public class audioFade : MonoBehaviour
     }
 
     IEnumerator playSong() {
-        // playing for 30 seconds (change as fit)
+        // playing for x seconds (change as fit)
         song.Play();
-        yield return new WaitForSeconds(30);
+        yield return new WaitForSeconds(15);
         buddy1.SetBool("isDancing", false);
         buddy2.SetBool("isDancing", false);
         buddy1pre.SetActive(false);
         buddy2pre.SetActive(false);
         buddy1post.SetActive(true);
         buddy2post.SetActive(true);
+        welcomepre.SetActive(false);
+        orbpre.SetActive(false);
+        welcomepost.SetActive(true);
+        orbpost.SetActive(true);
         song.Stop();
         block.SetActive(false);
         orbs.SetActive(false);
         darkPanel.SetActive(true);
-        yield return new WaitForSeconds(0.7f);
+        yield return new WaitForSeconds(1);
         darkPanel.SetActive(false);
     }
 }

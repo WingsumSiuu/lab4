@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -42,12 +43,18 @@ public class GameManager : MonoBehaviour
                 theBS.hasStarted = true;
 
                 theMusic.Play();
+                
             }
         } else {
             if (!theMusic.isPlaying && !resultsScreen.activeInHierarchy) {
-                resultsScreen.SetActive(true);
+                // screen switch here 
+                SceneManager.LoadScene(7);
 
-                normalsText.text = "" + normalHits;
+                //resultsScreen.SetActive(true);
+
+
+
+                /*normalsText.text = "" + normalHits;
                 goodsText.text = goodHits.ToString();
                 perfectsText.text = perfectHits.ToString();
                 missesText.text = "" + missedHits;
@@ -77,7 +84,7 @@ public class GameManager : MonoBehaviour
 
                 rankText.text = rankVal;
 
-                finalScoreText.text = currentScore.ToString();
+                finalScoreText.text = currentScore.ToString(); */
             }
         }
     }

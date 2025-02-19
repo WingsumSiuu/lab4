@@ -12,8 +12,9 @@ public class ItemPickup : MonoBehaviour
         }
     }
 
-    private void OnMouseDown()
+    void OnMouseDown()
     {
         Pickup();
+        Debug.Log("clicked");
     }
 }
